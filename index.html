@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Резюме студента</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .section p {
+            margin: 10px 0;
+        }
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Резюме</h1>
+        </header>
+        <section class="section">
+            <h2>Личная информация</h2>
+            <p><strong>Фамилия:</strong> Леута</p>
+            <p><strong>Имя:</strong> Ксения</p>
+            <p><strong>Отчество:</strong> Петровна</p>
+            <p><strong>Дата рождения:</strong> 29.11.2005</p>
+            <p><strong>Телефон:</strong> +375 (29) 896-20-61</p>
+            <p><strong>Email:</strong> leutaksenia683@gmail.com</p>
+            <p><strong>Адрес:</strong> г. Гродно, ул. Новооктябрьская, 14 кв. 304а</p>
+        </section>
+        <section class="section">
+            <h2>Образование</h2>
+            <p><strong>Образование:</strong> Гродненский государственный политехнический колледж</p>
+            <p><strong>Специальность:</strong> Программное обеспечение информационных технологий</p>
+        </section>
+        <section class="section">
+            <h2>Опыт работы</h2>
+            <p><strong>Компания:</strong> Гроднооблдорстрой "СХФ Доброселецкий"</p>
+            <p><strong>Должность:</strong> Техник-программист</p>
+            <p><strong>Период работы:</strong> 02.02.2024 - 14.03.2024</p>
+            <p><strong>Обязанности:</strong></p>
+            <ul>
+                <li>Забота о правильном оформлении всех необходимых документов, связанных с информационной технологией (IT).</li>
+                <li>Установка и настройка программного обеспечения на компьютерах с учетом потребностей сотрудников и требований безопасности.</li>
+                <li>Настройка и поддержание работы сетевого оборудования (маршрутизаторов, коммутаторов, маршрутизации сетевого трафика).</li>
+                <li>Настройка и поддержание работы сетевого оборудования (маршрутизаторов, коммутаторов, маршрутизации сетевого трафика).</li>
+                <li>Установка и обновление драйверов для обеспечения совместимости и производительности.</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Понимание языков программирования Python, C#</li>
+                <li>Понимание принципов работы операционных систем, таких как Linux, Windows, а также умение настраивать и обслуживать их.</li>
+                <li>Умение эффективно коммуницировать с другими членами команды, клиентами и пользователями для понимания их требований и предоставления качественного сервиса.</li>
+                <li>Опыт работы в коллективе, способность эффективно взаимодействовать с другими разработчиками, тестировщиками, администраторами и другими специалистами.</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Дополнительная информация</h2>
+            <p><strong>Иностранные языки:</strong> Английский язык</p>
+        </section>
+        <section class="section">
+            <h2>Изображение</h2>
+            <img src="images.jpg" alt="Фото">
+        </section>
+        <section class="section">
+            <h2>Видео</h2>
+            <div class="wrapper"> 
+                <div class="video">
+                    <video controls class="video_item" src="video_2024-01-09_08-39-44.mp4"></video>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <h2>Лабораторные работы</h2>
+            <div class="buttons">
+                <a href="13-14лаба/index.html" class="button">Лаба 13-14</a>
+                <a href="9лаба-скрипт/9лаба-скрипт/index.html" class="button">Лаба 9</a>
+                <a href="10-12/lr10-12.html" class="button">Лаба 10-12</a>
+                <a href="лб8_форма/index.html" class="button">Лб 8-форма</a>
+                <a href="лб8_карточка/index.html" class="button">Лб-карточка</a>
+                <a href="5-6-7-8 ЛР/" class="button">Лб 5, 6, 7</a>
+                <a href=" 15-16 лабораторная" class="button">Лб 15-16</a>
+                <a href=" 15-16 з.1" class="button">Задание 1</a>
+                <a href=" 17-lb" class="button">Лабораторная работа 17</a>
+                <a href=" 18 ЛР" class="button">Лабораторная работа 18</a>
+                <a href=" Карточка 1.1" class="button">Карточка</a> 
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
